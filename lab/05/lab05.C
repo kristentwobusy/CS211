@@ -17,11 +17,11 @@ void SetSalary(Employee& emp); //prototype
 int main()
 {
   Employee E1; //employee 1
- 
   cout << "Employee 1: " << endl;
   SetSalary(E1);
   E1.Print();
   cout << endl;
+  
   Employee E2;
   E2.GetInfo();
   SetSalary(E2);
